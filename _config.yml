@@ -1,29 +1,14 @@
+theme: minima
 title: Ahmed Salah
-email: ahmedsalah.dev@example.com
 description: Software Engineer & .NET Developer. Notes on modern C#, .NET 9, EF Core, SQL Server, and Clean Architecture.
+author: Ahmed Salah
 baseurl: "/skills-github-pages"
 url: "https://ahmedsalah-hub.github.io"
 github_username: AhmedSalah-hub
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Header Navigation Pages
 header_pages:
   - about.md
   - projects.md
 
-# Minima configuration
 minima:
   date_format: "%b %d, %Y"
-  social_links:
-    - { platform: github, user_url: "https://github.com/AhmedSalah-hub" }
-    - { platform: linkedin, user_url: "https://linkedin.com/" }
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
